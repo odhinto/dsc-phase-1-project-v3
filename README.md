@@ -91,6 +91,14 @@ In the event of an accident, it is almost guaranteed that the aircraft damage wi
     <p><em>Aircraft Damage Per Maker </em></p>
 </div>
 
+If you remove events where the aircraft damage is "Unknown", the following makers emerge as better candidates where there is a high likelihood of minor the accident only resulting in minor damage:
+
+*   Airbus
+*   Boeing
+*   Mcdonnell Douglas
+*   Embraer
+*   Douglas
+
 <div align="center">
     <img src="data/Pictures\AircraftDamage PerMaker2.png" alt="aircraft damage per maker normalized barchart" width="800">
     <p><em>Aircraft Damage Per Maker </em></p>
