@@ -49,7 +49,7 @@ Sampling a few columns to assess the various categorical data present will help 
 *   **Aircraft.Category**: The categorization of Aircrafts seems okay as is. But there is a need to combine '**Unknown**' and '**UNK**' such that they are the same category. There is missing data.
 *   **Make**: Unstandardized capitalization is causing the same manufacturer to be split e.g. Cessna vs CESSNA. There is a need to regularize capitalization to prevent such an error. Also, there is noise intoduced by having entries such as 'Cessna Aircraft' vs 'Cessna Aircraft Co' vs 'Cessna Aircraft Co.'. As they are too many possibilities, we may need to ignore this for now (and revisit once we can make use of fuzzy logic to normalize similar/equivalent data). There is missing data.
 
-![alt text](data/Pictures/noisy_make.PNG|width=10)
+<img src=data/Pictures/noisy_make.PNG" data-canonical-src="data/Pictures/noisy_make.PNG" width="200" height="400" />
 
 *   **Model**: A bit of non-standardized capitalization introduces noise into the data. This will need to be corrected. There is missing data.
 *   **Amateur.Built**: There are 2 categories: **Yes** and **No** as well ass missing data.
