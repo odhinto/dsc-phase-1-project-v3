@@ -36,4 +36,17 @@ First, we initialize common libraries we project to utilize in this exercise:
 *   numpy for mathematical calculations
 *   etc
 
-We then load the dataset and embark on a data understanding exercise
+We then load the dataset and embark on a data understanding exercise.
+
+### Data Understanding
+
+Sampling a few columns to assess the various categorical data present will help us define how to clean the data, e.g.:
+
+*   Investigation.Type
+*   Injury.Severity
+*   Aircraft.damage
+*   Aircraft.Category
+*   Make
+*   Model
+*   Amateur.Built
+*   Engine.Type
