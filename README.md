@@ -76,8 +76,10 @@ Further perusal of the data in Microsoft Excel gave some preliminary insights th
 
 Cessna, Piper, Beech, Boeing and Bell registered the most accidents.
 
-![alt text](data\Pictures\AccidentFrequencyPerMaker.PNG)
+
+
+![alt text](data/Pictures/AccidentFrequencyPerMaker.PNG)
 
 In the event of an accident, it is almost guaranteed that the aircraft damage will be substantial to totally damaged for most of the makers.
 
-![alt text](data\Pictures\AircraftDamagePerMaker.PNG)
+![alt text](data/Pictures/AircraftDamagePerMaker.PNG)
