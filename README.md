@@ -50,3 +50,19 @@ Sampling a few columns to assess the various categorical data present will help 
 *   **Model**: A bit of non-standardized capitalization introduces noise into the data. This will need to be corrected. There is missing data.
 *   **Amateur.Built**: There are 2 categories: **Yes** and **No** as well ass missing data.
 *   **Engine.Type**: The column seems clean, with Reciprocating Engine Aircrafts accounting for majority of the accidents/incidents. Entries with "UNK" should be substituted with "Unknown" to clean the data. There are missing values.
+*   **Purpose.of.flight**: The column seems clean, with personal flights accounting for majority of the accidents/incidents.
+*   **Weather.Condition**: IMC, or **Instrument Meteorological Conditions**, are weather conditions that require a pilot to rely on flight instruments. On the other hand, VMC, or **Visual Meteorological Conditions**, are weather conditions that allow a pilot to navigate by visual reference to the ground and other landmarks. 91.6% of the accidents occured during VMC i.e. weather is hardly a factor leading to accidents. We need to combine 'UNK' with 'Unk' i.e. standardize capitalization.
+*   **Broad.phase.of.flight**: Majority of the accidents occur during landing e.g. 24.995%.
+*   **Schedule**: There seems to be a rather even distribution between scheduled and non-scheduled flights where accidents/incidents occurred, although more accidents occur for non-scheduled flights (35% vs 31%). We will need to replace "UNK" with "Unknown" to maintain similar format.
+
+Generally, he dataset contains 31 columns and 90348 rows (including the header columns). There are several missing values in different columns. The only column without any missing data is the 'Investigation.Type' column, and this can form a good place to start with the data cleaning exercise.
+
+Further perusal of the data in Microsoft Excel gave some preliminary insights that can advise the data cleaning exercise:
+
+
+*   Where 'Event.Id' is blank, all the other columns are also blank. These could be deleted from the onset
+*   'Event.Date' uses a YYYY-MM-DD format whereas 'Publication.Date' uses a DD-MM-YYYY format. It would be better to standardize the date formats
+*   'Investigation.Type' seems to have 2 relevant values, i.e. "Accident" and "Incident". The rest of the values seem to be dates, and where it is a date, the rest of the columns are empty. Such rows can also be deleted from the onset.
+*   In the column 'Injury.Severity', there are too many categories since the number of fatalities is appended beside the label 'Fatal'. This is repetitive since there is another independent column 'Total.Fatal.Injuries' that details the number of fatalities. It may be better to just define the category 'fatal' for this column.
+*   In the column 'Make', capitalization differences have been noted e.g. 'CESSNA' vs 'Cessna'. This could make python consider these as two different makers. This needs to be standardized/corrected.
+
