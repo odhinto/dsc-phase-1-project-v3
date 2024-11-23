@@ -87,11 +87,11 @@ Cessna, Piper, Beech, Boeing and Bell registered the most accidents.
 In the event of an accident, it is almost guaranteed that the aircraft damage will be substantial to totally damaged for most of the makers.
 
 <div align="center">
-    <img src="data/Pictures\AircraftDamagePerMaker.png" alt="aircraft damage per maker barchart" width="600">
+    <img src="data/Pictures\AircraftDamagePerMaker.png" alt="aircraft damage per maker barchart" width="800">
     <p><em>Aircraft Damage Per Maker </em></p>
 </div>
 
 <div align="center">
-    <img src="data/Pictures\AircraftDamage PerMaker2.png" alt="aircraft damage per maker normalized barchart" width="600">
+    <img src="data/Pictures\AircraftDamage PerMaker2.png" alt="aircraft damage per maker normalized barchart" width="800">
     <p><em>Aircraft Damage Per Maker </em></p>
 </div>
