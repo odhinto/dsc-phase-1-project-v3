@@ -54,6 +54,11 @@ Sampling a few columns to assess the various categorical data present will help 
     <figcaption>Uncleaned Makers</figcaption>
 </figure>
 
+<div align="center">
+    <img src="data/Pictures/noisy_make.PNG" alt="Image description" width="300">
+    <p><em>This is the image caption</em></p>
+</div>
+
 *   **Model**: A bit of non-standardized capitalization introduces noise into the data. This will need to be corrected. There is missing data.
 *   **Amateur.Built**: There are 2 categories: **Yes** and **No** as well ass missing data.
 *   **Engine.Type**: The column seems clean, with Reciprocating Engine Aircrafts accounting for majority of the accidents/incidents. Entries with "UNK" should be substituted with "Unknown" to clean the data. There are missing values.
