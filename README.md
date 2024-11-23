@@ -71,3 +71,13 @@ Further perusal of the data in Microsoft Excel gave some preliminary insights th
 *   In the column 'Make', capitalization differences have been noted e.g. 'CESSNA' vs 'Cessna'. This could make python consider these as two different makers. This needs to be standardized/corrected.
 
 ### Data Cleaning
+
+### Exploratory Data Analysis
+
+Cessna, Piper, Beech, Boeing and Bell registered the most accidents.
+
+![alt text](data\Pictures\AccidentFrequencyPerMaker.PNG)
+
+In the event of an accident, it is almost guaranteed that the aircraft damage will be substantial to totally damaged for most of the makers.
+
+![alt text](data\Pictures\AircraftDamagePerMaker.PNG)
