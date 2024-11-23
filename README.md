@@ -11,6 +11,7 @@ The primary objective of this exercise is to identify the lowest-risk aircraft f
 *   Any correlations between operational risk and aircraft characteristics
 
 **Data Preprocessing**
+
 This section prepare the provided aviation data for analysis. We intend to do the following:
 
 
@@ -20,6 +21,7 @@ This section prepare the provided aviation data for analysis. We intend to do th
 *   Data Cleaning e.g. standardizing categorical values, deriving useful date data, removing duplicates etc
 
 **Dataset Overview**
+
 It is imperative for us to understand the aviation dataset first i.e.:
 
 *   The data structure e.g. available columns, data types and presence of missing values
@@ -28,3 +30,12 @@ It is imperative for us to understand the aviation dataset first i.e.:
 Data Understanding will prescribe subsequent steps. Simple cleaning procedures e.g. capitalization will be done on the spot (immediately a need is observed) to ensure they are not forgotten. Complex cleaning procedures will be done in the **Data Cleaning** subsection
 
 **Initializing Relevant Libraries**
+
+First, we initialize common libraries we project to utilize in this exercise
+#Import libraries i'm likely to use upfront
+import pandas as pd #To create and manipulate pandas dataframes
+import seaborn as sns #To Facilitate visualizations
+import matplotlib.pyplot as plt #To facilitate visualizations
+import numpy as np #To facilitate mathematical calculations
+from sklearn.preprocessing import LabelEncoder #Use this to encode categorical data
+%matplotlib inline
