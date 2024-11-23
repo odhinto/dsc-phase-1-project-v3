@@ -25,9 +25,10 @@ This section prepare the provided aviation data for analysis. We intend to do th
 It is imperative for us to understand the aviation dataset first i.e.:
 
 *   The data structure e.g. available columns, data types and presence of missing values
+*   Establish the relevance of the data to our study
 *   Identify useful columns to focus on
 
-Data Understanding will prescribe subsequent steps. Simple cleaning procedures e.g. capitalization will be done on the spot (immediately a need is observed) to ensure they are not forgotten. Complex cleaning procedures will be done in the **Data Cleaning** subsection
+Data Understanding will prescribe subsequent cleaning steps to be done in the **Data Cleaning** subsection
 
 First, we initialize common libraries we project to utilize in this exercise:
 
@@ -55,7 +56,7 @@ Sampling a few columns to assess the various categorical data present will help 
 *   **Broad.phase.of.flight**: Majority of the accidents occur during landing e.g. 24.995%.
 *   **Schedule**: There seems to be a rather even distribution between scheduled and non-scheduled flights where accidents/incidents occurred, although more accidents occur for non-scheduled flights (35% vs 31%). We will need to replace "UNK" with "Unknown" to maintain similar format.
 
-Generally, he dataset contains 31 columns and 90348 rows (including the header columns). There are several missing values in different columns. The only column without any missing data is the 'Investigation.Type' column, and this can form a good place to start with the data cleaning exercise.
+Summarily, the dataset contains 31 columns and 90348 rows (including the header columns). There are several missing values in different columns. The only column without any missing data is the 'Investigation.Type' column, and this can form a good place to start with the data cleaning exercise.
 
 Further perusal of the data in Microsoft Excel gave some preliminary insights that can advise the data cleaning exercise:
 
@@ -66,3 +67,4 @@ Further perusal of the data in Microsoft Excel gave some preliminary insights th
 *   In the column 'Injury.Severity', there are too many categories since the number of fatalities is appended beside the label 'Fatal'. This is repetitive since there is another independent column 'Total.Fatal.Injuries' that details the number of fatalities. It may be better to just define the category 'fatal' for this column.
 *   In the column 'Make', capitalization differences have been noted e.g. 'CESSNA' vs 'Cessna'. This could make python consider these as two different makers. This needs to be standardized/corrected.
 
+### Data Cleaning
