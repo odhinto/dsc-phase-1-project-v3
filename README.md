@@ -1,4 +1,4 @@
-**#Problem Definition**
+# **Problem Definition**
 
 Our company's expansion and diversification plans include venturing into the aviation industry to own and operate airplanes for commercial and private enterprises. A key preliminary step for this consideration is risk assesment for different aircrafts to advise which aircrafts pose the lowest risk for the intended business endeavor. This projects seeks to assess risk potential from analysis of aviation accident data from 1962 to 2023. 
 
@@ -10,7 +10,7 @@ The primary objective of this exercise is to identify the lowest-risk aircraft f
 *   Factors contributing to the accidents e.g. weather, pilot error or mechanical failures
 *   Any correlations between operational risk and aircraft characteristics
 
-**Data Preprocessing**
+# **Data Preprocessing**
 
 This section prepare the provided aviation data for analysis. We intend to do the following:
 
@@ -20,7 +20,7 @@ This section prepare the provided aviation data for analysis. We intend to do th
 *   Handling Missing Values using derived domain knowledge and imputation
 *   Data Cleaning e.g. standardizing categorical values, deriving useful date data, removing duplicates etc
 
-**Dataset Overview**
+## **Dataset Overview**
 
 It is imperative for us to understand the aviation dataset first i.e.:
 
