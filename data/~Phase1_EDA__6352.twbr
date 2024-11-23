@@ -834,6 +834,9 @@
               <breakdown value='auto' />
             </view>
             <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.0xh3xna0fzaswi166ebv810fgavt].[:Measure Names]' />
+            </encodings>
           </pane>
         </panes>
         <rows>[federated.0xh3xna0fzaswi166ebv810fgavt].[cnt:Event.Id:qk]</rows>
@@ -930,7 +933,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' name='Number of Accidents per Manufacturer'>
+    <window class='worksheet' maximized='true' name='Number of Accidents per Manufacturer'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -958,7 +961,7 @@
       </cards>
       <simple-id uuid='{A2C28082-3E0D-497F-8220-78F826BFA97D}' />
     </window>
-    <window class='worksheet' maximized='true' name='Accidents Trends Per Manufacture'>
+    <window class='worksheet' name='Accidents Trends Per Manufacture'>
       <cards>
         <edge name='left'>
           <strip size='160'>

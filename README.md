@@ -1,4 +1,4 @@
-**Problem Definition**
+**#Problem Definition**
 
 Our company's expansion and diversification plans include venturing into the aviation industry to own and operate airplanes for commercial and private enterprises. A key preliminary step for this consideration is risk assesment for different aircrafts to advise which aircrafts pose the lowest risk for the intended business endeavor. This projects seeks to assess risk potential from analysis of aviation accident data from 1962 to 2023. 
 
@@ -29,13 +29,11 @@ It is imperative for us to understand the aviation dataset first i.e.:
 
 Data Understanding will prescribe subsequent steps. Simple cleaning procedures e.g. capitalization will be done on the spot (immediately a need is observed) to ensure they are not forgotten. Complex cleaning procedures will be done in the **Data Cleaning** subsection
 
-**Initializing Relevant Libraries**
+First, we initialize common libraries we project to utilize in this exercise:
 
-First, we initialize common libraries we project to utilize in this exercise
-#Import libraries i'm likely to use upfront
-import pandas as pd #To create and manipulate pandas dataframes
-import seaborn as sns #To Facilitate visualizations
-import matplotlib.pyplot as plt #To facilitate visualizations
-import numpy as np #To facilitate mathematical calculations
-from sklearn.preprocessing import LabelEncoder #Use this to encode categorical data
-%matplotlib inline
+*   pandas to create and manipulate dataframes
+*   seaborn to facilitate any requisite visualizations within the notebook
+*   numpy for mathematical calculations
+*   etc
+
+We then load the dataset and embark on a data understanding exercise
