@@ -49,14 +49,9 @@ Sampling a few columns to assess the various categorical data present will help 
 *   **Aircraft.Category**: The categorization of Aircrafts seems okay as is. But there is a need to combine '**Unknown**' and '**UNK**' such that they are the same category. There is missing data.
 *   **Make**: Unstandardized capitalization is causing the same manufacturer to be split e.g. Cessna vs CESSNA. There is a need to regularize capitalization to prevent such an error. Also, there is noise intoduced by having entries such as 'Cessna Aircraft' vs 'Cessna Aircraft Co' vs 'Cessna Aircraft Co.'. As they are too many possibilities, we may need to ignore this for now (and revisit once we can make use of fuzzy logic to normalize similar/equivalent data). There is missing data.
 
-<figure style="text-align: center;">
-    <img src="data/Pictures/noisy_make.PNG" alt="Uncleaned makers" width="400">
-    <figcaption>Uncleaned Makers</figcaption>
-</figure>
-
 <div align="center">
-    <img src="data/Pictures/noisy_make.PNG" alt="Image description" width="300">
-    <p><em>This is the image caption</em></p>
+    <img src="data/Pictures/noisy_make.PNG" alt="Dirty Makers" width="400">
+    <p><em>Dirty Makers - Needs Cleaning with Fuzzy Logic</em></p>
 </div>
 
 *   **Model**: A bit of non-standardized capitalization introduces noise into the data. This will need to be corrected. There is missing data.
@@ -84,7 +79,10 @@ Further perusal of the data in Microsoft Excel gave some preliminary insights th
 
 Cessna, Piper, Beech, Boeing and Bell registered the most accidents.
 
-
+<div align="center">
+    <img src="data/Pictures/AccidentFrequencyPerMaker.png" alt="accident frequency per maker bubble" width="400">
+    <p><em>Cessna, Piper, Beech, Boeing and Bell registered the most accidents</em></p>
+</div>
 
 ![Accident frequency per maker bubble chart](data/Pictures/AccidentFrequencyPerMaker.png)
 
