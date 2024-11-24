@@ -1,15 +1,24 @@
-Name:   Anthony Odhiambo
 
-Course: DSFPT09
+<p align="center"> <a href="https://moringaschool.com/courses/data-science/?utm_source=google&utm_medium=cpc&utm_campaign=ds-lp&https://moringaschool.com/courses/data-science-course/?utm_source=google&utm_medium=cpc&utm_campaign=dsft-online-search-july+&gad_source=1&gclid=EAIaIQobChMIlMerk4T1iQMVeZRQBh0LRCzPEAAYASAAEgIyFfD_BwE/" target="_blank" rel="noreferrer"> <img src="data/Pictures/logo.PNG" alt="arduino" width="140" height="40"/> </p>
 
-Github: [Click to Open the Project Github Repository](https://github.com/odhinto/dsc-phase-1-project-v3)
+<h1 align="center">Hi 👋, I'm Anthony Odhiambo</h1>
+<h3 align="center">Data Analysis Excites Me</h3>
 
-Tableau Dashboard: [Click to Open the Tableau Dashboard](https://public.tableau.com/views/Phase1_EDA/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/anthony-odhiambo-47167a15b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="anthony-odhiambo-47167a15b/" height="30" width="40" /></a>
+</p>
+
+Github Repository: [Click to Open the Project Github Repository](https://github.com/odhinto/dsc-phase-1-project-v3)
+
+Tableau Dashboard: [Click to Open the Tableau Dashboard](https://public.tableau.com/views/Phase1_EDA/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 # **Problem Definition**
 
 Our company's expansion and diversification plans include venturing into the aviation industry to own and operate airplanes for commercial and private enterprises. A key preliminary step for this consideration is risk assesment for different aircrafts to advise which aircrafts pose the lowest risk for the intended business endeavor. This projects seeks to assess risk potential from analysis of aviation accident data from 1962 to 2023. 
+
+## Business Understanding
 
 The primary objective of this exercise is to identify the lowest-risk aircraft for our company to purchase and operate. The following are some of the key considerations we expect to make:
 
@@ -18,6 +27,8 @@ The primary objective of this exercise is to identify the lowest-risk aircraft f
 *   Severity and frequency of accidents
 *   Factors contributing to the accidents e.g. weather, pilot error or mechanical failures
 *   Any correlations between operational risk and aircraft characteristics
+
+From the data, our company can also assess which types of aviation ventures pose the least risks e.g. personal flights, commercial flights, instructional flights etc.
 
 # **Data Preprocessing**
 
