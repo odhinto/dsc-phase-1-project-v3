@@ -1,8 +1,7 @@
 
-<p align="center"> <a href="https://moringaschool.com/courses/data-science/?utm_source=google&utm_medium=cpc&utm_campaign=ds-lp&https://moringaschool.com/courses/data-science-course/?utm_source=google&utm_medium=cpc&utm_campaign=dsft-online-search-july+&gad_source=1&gclid=EAIaIQobChMIlMerk4T1iQMVeZRQBh0LRCzPEAAYASAAEgIyFfD_BwE/" target="_blank" rel="noreferrer"> <img src="data/Pictures/logo.PNG" alt="arduino" width="140" height="40"/> </p>
+<p align="center"> <a href="https://moringaschool.com/courses/data-science/?utm_source=google&utm_medium=cpc&utm_campaign=ds-lp&https://moringaschool.com/courses/data-science-course/?utm_source=google&utm_medium=cpc&utm_campaign=dsft-online-search-july+&gad_source=1&gclid=EAIaIQobChMIlMerk4T1iQMVeZRQBh0LRCzPEAAYASAAEgIyFfD_BwE/" target="_blank" rel="noreferrer"> <img src="data/Pictures/logo.PNG" alt="Moringa Logo" width="140" height="40"/> </p>
 
 <h1 align="center">Hi 👋, I'm Anthony Odhiambo</h1>
-<h3 align="center">Data Analysis Excites Me</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
