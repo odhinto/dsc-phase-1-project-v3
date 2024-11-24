@@ -1,6 +1,3 @@
-
-<p align="center"> <a href="https://moringaschool.com/courses/data-science/?utm_source=google&utm_medium=cpc&utm_campaign=ds-lp&https://moringaschool.com/courses/data-science-course/?utm_source=google&utm_medium=cpc&utm_campaign=dsft-online-search-july+&gad_source=1&gclid=EAIaIQobChMIlMerk4T1iQMVeZRQBh0LRCzPEAAYASAAEgIyFfD_BwE/" target="_blank" rel="noreferrer"> <img src="data/Pictures/logo.PNG" alt="Moringa Logo" width="140" height="40"/> </p>
-
 <h1 align="center">Hi 👋, I'm Anthony Odhiambo</h1>
 
 <h3 align="left">Connect with me:</h3>
@@ -217,7 +214,7 @@ Reciprocating engines register an overwhelming majority of accidents with guaran
 It is important to understand the trend in accidents for different engine technologies over time.
 
 <div align="center">
-    <img src="data/Pictures/AccidentTrendsperEngineType.png" alt="Accident Trends per Engine Type" width="800">
+    <img src="data/Pictures/AccidentTrendsPerEngineType.png" alt="Accident Trends per Engine Type" width="800">
     <p><em>Accidents Trends per Engine Type</em></p>
 </div>
 
