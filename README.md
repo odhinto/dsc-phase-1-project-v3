@@ -39,14 +39,16 @@ It is imperative for us to understand the aviation dataset first i.e.:
 
 Data Understanding will prescribe subsequent cleaning steps to be done in the **Data Cleaning** subsection
 
+### Python Libraries Initialization
 First, we initialize common libraries we project to utilize in this exercise:
 
 *   pandas to create and manipulate dataframes
-*   seaborn to facilitate any requisite visualizations within the notebook
+*   seaborn and matplotlib to facilitate any requisite visualizations within the notebook
 *   numpy for mathematical calculations
 *   etc
 
-We then load the dataset and embark on a data understanding exercise.
+### Data Loading
+We then load the dataset into python as a dataframe and embark on a data understanding exercise.
 
 ### Data Understanding
 
@@ -82,8 +84,23 @@ Further perusal of the data in Microsoft Excel gave some preliminary insights th
 *   In the column 'Injury.Severity', there are too many categories since the number of fatalities is appended beside the label 'Fatal'. This is repetitive since there is another independent column 'Total.Fatal.Injuries' that details the number of fatalities. It may be better to just define the category 'fatal' for this column.
 *   In the column 'Make', capitalization differences have been noted e.g. 'CESSNA' vs 'Cessna'. This could make python consider these as two different makers. This needs to be standardized/corrected.
 
-### Data Cleaning
+## Data Cleaning
 
+From the data cleaning requiements identified during the data understanding step, the following cleaning exercises were implemented:
+*   Removing rows with empty **Event.ID** values since for such cases, most of the other values were blank. This yielded clean **Investigation.Type** columns as well.
+*   Removing rows with empty **Make** values since the main objective of this study is to identify the lowest-risk air crafts to invest in.
+*   Removing the bracketed number of fatalities in the **Injury.Severity** column since the same can be evaluated from the **Total.Fatal.Injuries** column. 
+*   Normalizing capitalization formatting in all the categorical fields to ensure clean categories.
+*   Replacing **UNK** with **Unknown** in all relevant fields to enhance understanding of the data.
+*   Converting Date Columns **Event.Date** and **Publication.Date** to Python Datetime format
+*   Handling missing values: We will use different strategies to handle different categories of missing data:
+
+    *   Most of the longitude and latitude data is missing, and it does not seem to be relevant to this study. Additionally, we also have location data which is more readily available. Thus, we can drop the longitude and latitude columns
+    *   FAR.Description data seems irrelelevant to the study, and so it was dropped
+    *   For the few missing values of relevant categorical columns, we can **fill missing values with **Unknown". We may be able to extract insight even with "Unknown" parameters if others related parameters are known e.g. you may have an unknown model but know the manufacturer. This remains relevant to our study.
+    *   For the data on total number of injuries, it is best to assume that the data meant to be there is '0' e.g. if Total.Serious.Injuries is empty, it means there were no fatal injuries
+*   Checking and removing any duplicates
+*   Encoding categorical data into numbers to facilitate correlation calculations.
 # Exploratory Data Analysis
 
 We can check for correlation in the measures in our data:
